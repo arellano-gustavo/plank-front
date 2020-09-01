@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title>Aqui va el titulo</title>
+    <script src="https://www.google.com/recaptcha/api.js?onload=vueRecaptchaApiLoaded&render=explicit" async defer>
+    </script>
+  </head>
+  <body>
+    <noscript>
+      <strong>Lamentablemente, <%= htmlWebpackPlugin.options.title %> no funciona adecuadamente sin que JavaScript esté habilitado. Favor de habilitar JavaScript para continuar.</strong>
+    </noscript>
+    <div id="app"></div>
+  </body>
+</html>
